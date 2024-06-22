@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-white max-h-screen w-full">
+  <div class="bg-white w-full">
     <div
       id="image-splash-mobile"
-      class="md:hidden h-[90vh] relative overflow-hidden"
+      class="md:hidden h-[90vh] overflow-hidden relative"
     >
       <div
         class="absolute top-0 left-0 bg-black opacity-50 h-full w-full"
@@ -15,7 +15,7 @@
     </div>
     <div
       id="video-splash-desktop"
-      class="hidden md:block relative w-screen overflow-hidden"
+      class="hidden md:block w-screen overflow-hidden relative"
     >
       <div style="padding: 56.25% 0 0 0; position: relative">
         <transition name="fade">
@@ -59,7 +59,6 @@
         </div>
       </router-link>
     </div>
-    <hr class="w-[90%] border border-gray-200 m-auto mt-8" />
   </div>
 </template>
 

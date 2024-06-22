@@ -13,7 +13,7 @@
       class="absolute top-16 right-8 z-[1] text-2xl md:hidden"
       @click="$emit('toggleDrawer')"
     >
-      <font-awesome-icon :icon="['fas', 'bars']" />
+      <font-awesome-icon :icon="['fas', 'bars']" :class="[{'text-black':isScrolled},{'text-white':!isScrolled}]" />
     </button>
     <div class="flex h-32 w-full items-center bg-transparent py-2 px-8">
       <div class="w-1/4 h-full flex flex-row items-center justify-start">

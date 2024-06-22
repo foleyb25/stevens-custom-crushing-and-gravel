@@ -1,10 +1,12 @@
 <template>
-  <div class="">
-    <HeroContentComponent class="inline-block" />
-    <div id="about-section" class="w-full p-8">
+    <HeroContentComponent />
+    <hr class="w-[90%] border border-gray-200 m-auto my-12" />
+    <div class="">
+    <div id="about-section" class="w-full px-8">
       <h1 class="text-6xl font-bold">About</h1>
+      <div class="h-[200px]">Add about content here</div>
     </div>
-  </div>
+    </div>
 </template>
 
 <script setup>

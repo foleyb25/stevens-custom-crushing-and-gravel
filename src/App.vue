@@ -15,6 +15,7 @@
         @toggle-drawer="toggleSideNavDrawer"
       />
     </Transition>
+    
     <router-view />
     <FooterComponent />
   </div>
