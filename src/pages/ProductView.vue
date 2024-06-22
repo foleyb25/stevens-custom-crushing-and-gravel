@@ -112,7 +112,7 @@ const ProductSummary = reactive([
 ])
 
 const services = reactive([
-  { serviceName: "Mobile Custom Crushing, Hauling, and Excavation", productDetails: [], imageSource: ServicesPageSmallImage, serviceLink: "/services", isLink: true },
+  { serviceName: "Mobile Custom Crushing, Hauling & Excavation", productDetails: [], imageSource: ServicesPageSmallImage, serviceLink: "/services", isLink: true },
 ])
 
 onMounted(() => {
