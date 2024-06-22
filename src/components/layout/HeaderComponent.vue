@@ -21,9 +21,9 @@
         </router-link>
       </div>
 
-      <nav class="w-3/4 hidden md:flex flex-row items-center justify-end">
+      <nav class="w-3/4 hidden md:flex flex-row items-center justify-end mr-12">
         <ul
-          class="flex text-xs md:text-base lg:text-lg space-x-16 lg:space-x-24 antialiased"
+          class="flex md:text-sm lg:text-lg space-x-16 lg:space-x-24 antialiased font-bold"
         >
           <li>
             <router-link

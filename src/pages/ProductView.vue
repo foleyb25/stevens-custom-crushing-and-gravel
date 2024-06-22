@@ -45,7 +45,7 @@
       </table>
     </div>
     <hr class="w-[90%] border border-gray-200 m-auto my-12" />
-    <div id="services-list" class="mt-8 flex flex-col md:flex-row">
+    <div id="services-list" class="my-8 flex flex-col md:flex-row">
       <div class="w-[7%] flex justify-center items-center">
         <h3 id="desktop-header" class="hidden md:block text-3xl font-bold -rotate-90 ">Services</h3>
       </div>

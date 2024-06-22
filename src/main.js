@@ -6,11 +6,17 @@ import { faCheckCircle } from "@fortawesome/free-regular-svg-icons";
 import {
   faBars,
   faCircleChevronRight,
+  faHouse,
+  faHillRockslide,
+  faTruckRampBox,
+  faLocationDot,
+  faEnvelope,
+  faCircleXmark
 } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add([faCheckCircle, faBars, faCircleChevronRight]);
+library.add([faCheckCircle, faBars, faCircleChevronRight, faHouse, faHillRockslide, faTruckRampBox, faLocationDot, faEnvelope, faCircleXmark]);
 
 createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)

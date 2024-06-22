@@ -1,7 +1,7 @@
 <template>
     <HeroContentComponent />
     <hr class="w-[90%] border border-gray-200 m-auto my-12" />
-    <div class="">
+    <div class="p-8">
     <div id="about-section" class="w-full px-8 mb-12">
       <h1 class="text-6xl font-bold mb-8">About</h1>
       <p>Our goal is to provide comprehensive solutions that are customized to fit our customers’ needs. Focused on delivering <i class="font-bold">exceptional results</i> while making coordination effortless to meet your project demands.  </p>

@@ -11,7 +11,7 @@
     </transition>
     <div class="absolute bg-black opacity-50 top-0 left-0 w-full h-full" />
     <div
-      class="font-din hero-content absolute top-8 left-0 z-[9] w-full h-full flex flex-col justify-center items-center text-center text-white"
+      class="hero-content absolute top-8 left-0 z-[9] w-full h-full flex flex-col justify-center items-center text-center text-white"
     >
       <div id="logo" class="w-1/2 flex justify-center mb-8">
         <img

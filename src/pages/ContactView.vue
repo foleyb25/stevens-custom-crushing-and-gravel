@@ -1,7 +1,7 @@
 <template>
   <div
     id="content-container"
-    class="w-full bg-white"
+    class="w-full bg-white p-8"
   >
 
     <div id="contact-info">

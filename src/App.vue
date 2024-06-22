@@ -11,12 +11,11 @@
     <Transition name="slide">
       <SideNavDrawerComponent
         v-if="toggleDrawer"
-        class="md:hidden z-50"
         @toggle-drawer="toggleSideNavDrawer"
       />
     </Transition>
     
-    <router-view class="mt-48 p-8"/>
+    <router-view class="mt-32"/>
     <FooterComponent />
   </div>
 </template>

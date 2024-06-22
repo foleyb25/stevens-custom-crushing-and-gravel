@@ -1,31 +1,31 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
   <!-- drawer component -->
+  <button
+        type="button"
+        class="fixed top-8 right-8 z-50 text-white hover:text-gray-300 text-4xl"
+        @click="$emit('toggleDrawer')"
+      >
+      <font-awesome-icon :icon="['fas', 'circle-xmark']" />
+      </button>
   <div
-    class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto bg-white text-black w-80 max-w-full dark:bg-gray-800 font-din"
+    class="fixed top-0 left-0 h-screen p-4 md:hidden z-50 overflow-y-auto bg-white text-black w-80 max-w-ful"
   >
     <div class="flex items-center justify-center">
       <h5 class="text-xs font-semibold text-black uppercase">
         Stevens Custom Crushing and Gravel
       </h5>
-      <button
-        type="button"
-        class="hover:bg-gray-200 hover:text-gray-900 bg-transparent rounded-lg border border-black text-sm p-1.5 inline-flex items-center ml-1"
-        @click="$emit('toggleDrawer')"
-      >
-        X
-        <span class="sr-only">Close menu</span>
-      </button>
+      
     </div>
-    <div class="py-4 overflow-y-auto">
-      <ul class="space-y-2">
+    <div class="mt-8 overflow-y-auto">
+      <ul class="space-y-4">
         <li>
           <router-link
             to="/"
             class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
             @click="$emit('toggleDrawer')"
           >
-            <img :src="homeIcon" class="w-8 h-8" alt="" />
+          <font-awesome-icon :icon="['fas', 'house']" />
             <span class="flex-1 ml-3 text-left whitespace-nowrap">Home</span>
           </router-link>
         </li>
@@ -35,7 +35,7 @@
             class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
             @click="$emit('toggleDrawer')"
           >
-            <img :src="projectsIcon" class="w-8 h-8" alt="" />
+          <font-awesome-icon :icon="['fas', 'hill-rockslide']" />
             <span class="flex-1 ml-3 text-left whitespace-nowrap"
               >Products</span
             >
@@ -47,7 +47,7 @@
             class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
             @click="$emit('toggleDrawer')"
           >
-            <img :src="servicesIcon" class="w-8 h-8" alt="" />
+          <font-awesome-icon :icon="['fas', 'truck-ramp-box']" />
             <span
               class="flex-1 ml-3 text-left whitespace-nowrap"
               sidebar-toggle-item
@@ -61,11 +61,7 @@
             class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
             @click="$emit('toggleDrawer')"
           >
-            <img
-              :src="projectsIcon"
-              class="w-8 h-8 filter grayscale brightness-100"
-              alt=""
-            />
+          <font-awesome-icon :icon="['fas', 'location-dot']" />
             <span
               class="flex-1 ml-3 text-left whitespace-nowrap"
               sidebar-toggle-item
@@ -79,11 +75,7 @@
             class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
             @click="$emit('toggleDrawer')"
           >
-            <img
-              :src="projectsIcon"
-              class="w-8 h-8 filter grayscale brightness-100"
-              alt=""
-            />
+          <font-awesome-icon :icon="['fas', 'envelope']" />
             <span
               class="flex-1 ml-3 text-left whitespace-nowrap"
               sidebar-toggle-item
@@ -97,9 +89,5 @@
 </template>
 
 <script setup>
-import homeIcon from "/src/assets/images/home-icon.svg";
-import servicesIcon from "/src/assets/images/services-icon.svg";
-import projectsIcon from "/src/assets/images/projects-icon.svg";
-
 defineEmits(["toggleDrawer"]);
 </script>
