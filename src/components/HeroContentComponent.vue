@@ -31,6 +31,7 @@
           frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
           class="absolute top-0 left-0 w-full h-full pointer-events-none"
+          loading="lazy"
           @load="videoLoaded"
         ></iframe>
       </div>
