@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="p-8">
     <div class="flex flex-col-reverse lg:flex lg:flex-row">
       <div class="w-full lg:w-1/2 p-2">
         <h1 class="text-4xl font-bold mb-8">Mobile Custom Crushing, Hauling & Excavation</h1>
