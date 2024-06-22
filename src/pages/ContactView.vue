@@ -5,10 +5,11 @@
   >
 
     <div id="contact-info">
-      <h3 class="text-4xl font-bold">Stevens Custom Crushing & Gravel</h3>
+      <h1 class="text-4xl font-bold underline">Call or Email For a Quote</h1>
+      <h3 class="text-2xl mt-8">Stevens Custom Crushing & Gravel</h3>
       <address>Cascade MT</address>
       <a class="text-blue-500 underline" href="tel:406-920-0740">406-920-0740</a><br>
-      <a class="text-blue-500 underline" href="mailto:Zack@StevenCrushing.com">Zack@StevenCrushing.com</a>
+      <a class="text-blue-500 underline" href="mailto:Zack@StevenCrushing.com">Zack@stevensgravel.com</a>
     </div>
     <form
       ref="form"

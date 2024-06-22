@@ -23,7 +23,7 @@
 
       <nav class="w-3/4 hidden md:flex flex-row items-center justify-end mr-12">
         <ul
-          class="flex md:text-sm lg:text-lg space-x-16 lg:space-x-24 antialiased font-bold"
+          class="flex md:text-sm lg:text-lg space-x-8 lg:space-x-16 antialiased font-bold"
         >
           <li>
             <router-link
@@ -79,10 +79,10 @@
               :class="[
                 { 'hover:text-gray-500': isScrolled },
                 { 'hover:text-gray-300': !isScrolled },
-                'hover:transition-colors',
+                'hover:transition-colors p-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 rounded border border-black',
               ]"
             >
-              Contact
+              Request a Quote
             </router-link>
           </li>
         </ul>
