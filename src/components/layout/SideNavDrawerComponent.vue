@@ -2,7 +2,7 @@
 <template>
   <!-- drawer component -->
   <div
-    class="fixed z-40 h-screen p-4 overflow-y-auto bg-white text-black w-80 max-w-full dark:bg-gray-800 font-din"
+    class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto bg-white text-black w-80 max-w-full dark:bg-gray-800 font-din"
   >
     <div class="flex items-center justify-center">
       <h5 class="text-xs font-semibold text-black uppercase">

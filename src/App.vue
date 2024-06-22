@@ -16,7 +16,7 @@
       />
     </Transition>
     
-    <router-view />
+    <router-view class="mt-48 p-8"/>
     <FooterComponent />
   </div>
 </template>

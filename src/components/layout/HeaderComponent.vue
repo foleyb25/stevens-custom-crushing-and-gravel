@@ -3,17 +3,14 @@
     :class="[
       { 'bg-white text-black border-b border-black': isScrolled },
       { 'bg-transparent text-black': !isScrolled },
-      'fixed w-full top-0 left-0 z-[11] transition duration-500 ',
+      'fixed w-full top-0 left-0 z-[11] transition duration-500',
     ]"
   >
-    <div class="bg-yellow-500 z-[48] w-full text-center">
-      Under maintenance...
-    </div>
     <button
-      class="absolute top-16 right-8 z-[1] text-2xl md:hidden"
+      class="absolute top-12 right-8 z-[1] text-2xl md:hidden"
       @click="$emit('toggleDrawer')"
     >
-      <font-awesome-icon :icon="['fas', 'bars']" :class="[{'text-black':isScrolled},{'text-white':!isScrolled}]" />
+      <font-awesome-icon :icon="['fas', 'bars']" class="text-black" />
     </button>
     <div class="flex h-32 w-full items-center bg-transparent py-2 px-8">
       <div class="w-1/4 h-full flex flex-row items-center justify-start">

@@ -4,9 +4,6 @@
       id="image-splash-mobile"
       class="md:hidden h-[90vh] overflow-hidden relative"
     >
-      <div
-        class="absolute top-0 left-0 bg-black opacity-50 h-full w-full"
-      ></div>
       <img
         :src="mobileBackgroundImage"
         alt="Mobile background image"
