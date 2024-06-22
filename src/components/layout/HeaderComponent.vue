@@ -81,7 +81,7 @@
                 { 'hover:text-gray-300': !isScrolled },
                 'hover:transition-colors p-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 rounded border border-black',
               ]"
-            >
+            > 
               Request a Quote
             </router-link>
           </li>

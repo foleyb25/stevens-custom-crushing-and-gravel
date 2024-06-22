@@ -63,7 +63,7 @@
           >
           <font-awesome-icon :icon="['fas', 'location-dot']" />
             <span
-              class="flex-1 ml-3 text-left whitespace-nowrap"
+              class="flex-1 ml-5 text-left whitespace-nowrap"
               sidebar-toggle-item
               >Location</span
             >
@@ -75,11 +75,11 @@
             class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
             @click="$emit('toggleDrawer')"
           >
-          <font-awesome-icon :icon="['fas', 'envelope']" />
+          <!-- <font-awesome-icon :icon="['fas', 'envelope']" /> -->
             <span
-              class="flex-1 ml-3 text-left whitespace-nowrap"
+              class="flex-1 ml-4 text-center py-2 whitespace-nowrap bg-gradient-to-r from-cyan-500 to-blue-500 rounded  border-black border"
               sidebar-toggle-item
-              >Contact</span
+              >Request a Quote</span
             >
           </router-link>
         </li>
