@@ -1,9 +1,9 @@
 <template>
   <header
     :class="[
-      { 'bg-white text-black': isScrolled },
+      { 'bg-white text-black border-b border-black': isScrolled },
       { 'bg-transparent text-black': !isScrolled },
-      'fixed w-full top-0 left-0 z-[11] transition duration-500',
+      'fixed w-full top-0 left-0 z-[11] transition duration-500 ',
     ]"
   >
     <div class="bg-yellow-500 z-[48] w-full text-center">

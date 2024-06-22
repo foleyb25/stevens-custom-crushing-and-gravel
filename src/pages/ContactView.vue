@@ -1,12 +1,17 @@
 <template>
   <div
     id="content-container"
-    class="absolute top-0 left-0 h-screen w-full bg-black p-5 font-marlboro"
+    class="w-full bg-white p-5"
   >
     <div
-      class="w-full h-full flex flex-col md:flex-row justify-center items-center mb-5"
+      class="mt-48 p-6"
     >
-      <h1 class="text-white text-3xl mb-4">Contact</h1>
+    <div id="contact-info">
+      <h3 class="text-4xl font-bold">Stevens Custom Crushing & Gravel</h3>
+      <address>Cascade MT</address>
+      <a class="text-blue-500 underline" href="tel:406-920-0740">406-920-0740</a><br>
+      <a class="text-blue-500 underline" href="mailto:Zack@StevenCrushing.com">Zack@StevenCrushing.com</a>
+    </div>
     </div>
     <form
       ref="form"
@@ -162,7 +167,7 @@
 
 <script setup>
 import emailjs from "@emailjs/browser";
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 const form = ref(null);
 const email = ref("");
@@ -204,6 +209,10 @@ const sendEmail = async () => {
   phone.value = "";
   address.value = "";
 };
+
+onMounted(() => {
+  window.scrollTo(0,0);
+})
 </script>
 
 <style lang="scss" scoped></style>

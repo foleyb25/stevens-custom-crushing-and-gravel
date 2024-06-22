@@ -10,9 +10,10 @@
       /></router-link>
     </div>
     <div id="contact-info">
-      <h3></h3>
-      <address>1234 Highway Drive</address>
-      <div>(###)-###-####</div>
+      <h3 class="text-4xl font-bold">Stevens Custom Crushing & Gravel</h3>
+      <address>Cascade MT</address>
+      <a class="text-blue-500 underline" href="tel:406-920-0740">406-920-0740</a><br>
+      <a class="text-blue-500 underline" href="mailto:Zack@StevenCrushing.com">Zack@StevenCrushing.com</a>
     </div>
   </div>
 </template>

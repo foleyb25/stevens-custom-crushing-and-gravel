@@ -9,4 +9,9 @@
 
 <script setup>
 import HeroContentComponent from "/src/components/HeroContentComponent.vue";
+import {onMounted} from "vue"
+
+onMounted(() => {
+  window.scrollTo(0,0);
+})
 </script>
