@@ -23,7 +23,7 @@
 
       <nav class="w-3/4 hidden md:flex flex-row items-center justify-end mr-12">
         <ul
-          class="flex md:text-sm lg:text-lg space-x-8 lg:space-x-16 antialiased font-bold"
+          class="flex md:text-sm lg:text-base xl:text-lg space-x-8 lg:space-x-16 antialiased font-bold"
         >
           <li>
             <router-link
