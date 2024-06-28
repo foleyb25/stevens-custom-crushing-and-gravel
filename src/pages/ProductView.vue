@@ -27,7 +27,6 @@
           <div v-for="product in products">
             <CardComponent :name="product.productName" :details="product.productDetails"
               :image-source="product.imageSource" :is-bullet-style="product.isBulletStyle" />
-              {{ product.isBulletStyle }}
           </div>
           
         </div>
