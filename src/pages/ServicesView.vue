@@ -14,7 +14,7 @@
         </p>
       </div>
 
-      <div class="w-full lg:w-1/2 p-2">
+      <div class="w-full lg:w-1/2 p-2 flex items-center justify-center">
         <img :src="ServicesPageImage" alt="Products Page Image">
       </div>
     </div>
@@ -49,7 +49,7 @@
 
 <script setup>
 import { onMounted, reactive } from "vue"
-import ServicesPageImage from "/src/assets/images/compressed_services_main.jpg"
+import ServicesPageImage from "/src/assets/images/compressed_service_img4.jpg"
 import ProductsPageImage from "/src/assets/images/compressed_products_main.jpg"
 import ServicesImg1 from "/src/assets/images/compressed_service_img1.jpg"
 import ServicesImg2 from "/src/assets/images/compressed_service_img2.jpg"

@@ -15,7 +15,7 @@
         </p>
       </div>
 
-      <div class="w-full lg:w-1/2 p-2">
+      <div class="w-full lg:w-1/2 p-2 flex items-center justify-center">
         <img :src="ProductsPageImage" alt="Products Page Image">
       </div>
     </div>
