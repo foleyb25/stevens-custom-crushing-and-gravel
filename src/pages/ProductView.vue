@@ -68,7 +68,7 @@
 <script setup>
 import { onMounted, reactive } from "vue"
 import ProductsPageImage from "/src/assets/images/compressed_products_main.jpg"
-import ServicesPageSmallImage from "/src/assets/images/compressed_services_small.jpg"
+import ServicesPageImage from "/src/assets/images/compressed_service_img4.jpg"
 import CardComponent from "/src/components/CardComponent.vue"
 import SandImage from "/src/assets/images/compressed_Sand.jpg"
 import AsphaltImage from "/src/assets/images/compressed_Asphalt.jpg"
@@ -113,7 +113,7 @@ const ProductSummary = reactive([
 ])
 
 const services = reactive([
-  { serviceName: "Mobile Custom Crushing, Hauling & Excavation", productDetails: [], imageSource: ServicesPageSmallImage, serviceLink: "/services", isLink: true },
+  { serviceName: "Mobile Custom Crushing, Hauling & Excavation", productDetails: [], imageSource: ServicesPageImage, serviceLink: "/services", isLink: true },
 ])
 
 onMounted(() => {

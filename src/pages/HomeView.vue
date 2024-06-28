@@ -47,11 +47,11 @@
 import {onMounted, reactive} from "vue"
 import HeroContentComponent from "/src/components/HeroContentComponent.vue";
 import CardComponent from "/src/components/CardComponent.vue";
-import ServicesPageSmallImage from "/src/assets/images/compressed_services_small.jpg"
+import ServicesPageImage from "/src/assets/images/compressed_service_img4.jpg"
 import ProductsPageImage from "/src/assets/images/compressed_products_main.jpg"
 
 const services = reactive([
-  { serviceName: "Mobile Custom Crushing, Hauling & Excavation", productDetails: [], imageSource: ServicesPageSmallImage, serviceLink: "/services", isLink: true },
+  { serviceName: "Mobile Custom Crushing, Hauling & Excavation", productDetails: [], imageSource: ServicesPageImage, serviceLink: "/services", isLink: true },
 ])
 
 const products = reactive([
