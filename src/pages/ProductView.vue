@@ -83,12 +83,12 @@ import TopsoilImage from "/src/assets/images/compressed_Topsoil.jpg"
 const products = reactive([
   { productName: "Sand", productDetails: ["Natural Sand", "Manufactured Sand"], imageSource: SandImage },
   { productName: "Asphalt", productDetails: ["Millings"], imageSource: AsphaltImage },
-  { productName: "Drain Rock", productDetails: ["1-1/2\"", "3/4\""], imageSource: DrainRockImage },
+  { productName: "Drain Rock", productDetails: ["1-1/2\"", `3/4" Screened`], imageSource: DrainRockImage },
   { productName: "Fractured Rock", productDetails: ["1-1/2\"", "3/4\""], imageSource: FracturedRockImage },
   { productName: "Sub-base", productDetails: ["Pit Run","3\" Minus Jaw Run"], imageSource: JawRunImage },
   { productName: "Landscape Rock", productDetails: ["1-1/2\" Quarry", "3\" Quarry"], imageSource: LandscapeRockImage },
-  { productName: "Oversized Rock", productDetails: ["4-12\" minus"], imageSource: OversizedRockImage },
-  { productName: "Road Base", productDetails: ["1-1/2\" minus", "3/4\" minus"], imageSource: RoadBaseImage },
+  { productName: "Oversized Rock", productDetails: [`4"-12" Oversized`], imageSource: OversizedRockImage },
+  { productName: "Road Base", productDetails: ["1-1/2\" Minus", "3/4\" Minus"], imageSource: RoadBaseImage },
   { productName: "Top Soil", productDetails: ["Screened", "Fill Dirt"], imageSource: TopsoilImage, isBulletStyle: false }
 ])
 
