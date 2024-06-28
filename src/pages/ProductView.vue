@@ -26,8 +26,10 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-12">
           <div v-for="product in products">
             <CardComponent :name="product.productName" :details="product.productDetails"
-              :image-source="product.imageSource" />
+              :image-source="product.imageSource" :is-bullet-style="product.isBulletStyle" />
+              {{ product.isBulletStyle }}
           </div>
+          
         </div>
       </div>
     </div>
@@ -80,15 +82,15 @@ import RoadBaseImage from "/src/assets/images/compressed_Road_Base.jpg"
 import TopsoilImage from "/src/assets/images/compressed_Topsoil.jpg"
 
 const products = reactive([
-  { productName: "Sand", productDetails: ["3/4\" minus Reject Sand"], imageSource: SandImage },
+  { productName: "Sand", productDetails: ["Natural Sand", "Manufactured Sand"], imageSource: SandImage },
   { productName: "Asphalt", productDetails: ["Millings"], imageSource: AsphaltImage },
   { productName: "Drain Rock", productDetails: ["1-1/2\"", "3/4\" Washed"], imageSource: DrainRockImage },
   { productName: "Fractured Rock", productDetails: ["1-1/2\"", "3/4\""], imageSource: FracturedRockImage },
-  { productName: "Pit Run", productDetails: ["3\" minus Jaw Run"], imageSource: JawRunImage },
+  { productName: "Sub-base", productDetails: ["Pit Run","3\" Minus Jaw Run"], imageSource: JawRunImage },
   { productName: "Landscape Rock", productDetails: ["1-1/2\" Quarry", "3\" Quarry"], imageSource: LandscapeRockImage },
   { productName: "Oversized Rock", productDetails: ["4-12\" minus"], imageSource: OversizedRockImage },
   { productName: "Road Base", productDetails: ["1-1/2\" minus", "3/4\" minus"], imageSource: RoadBaseImage },
-  { productName: "Top Soil", productDetails: ["Screened", "Fill Dirt"], imageSource: TopsoilImage }
+  { productName: "Top Soil", productDetails: ["Screened", "Fill Dirt"], imageSource: TopsoilImage, isBulletStyle: false }
 ])
 
 const ProductSummary = reactive([
