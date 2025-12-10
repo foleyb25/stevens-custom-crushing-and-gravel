@@ -19,13 +19,13 @@
   </div>
   <div class="w-1/2 flex flex-col justify-center items-center mr-6 text-gray-600">
     <div class="space-y-2">
-      <h4 class="text-xl font-bold">Navigation</h4>
       <ul class="space-y-1">
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/products">Products</router-link></li>
         <li><router-link to="/services">Services</router-link></li>
         <li><router-link to="/location">Location</router-link></li>
         <li><router-link to="/contact">Request a Quote</router-link></li>
+        <li><router-link to="/jobs">Job Openings</router-link></li>
       </ul>
     </div>
     
