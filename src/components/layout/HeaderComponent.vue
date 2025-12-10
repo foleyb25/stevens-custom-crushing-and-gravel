@@ -21,9 +21,9 @@
         </router-link>
       </div>
 
-      <nav class="w-3/4 hidden md:flex flex-row items-center justify-end mr-12">
+      <nav class="w-3/4 hidden md:flex flex-row items-center justify-end mr-6">
         <ul
-          class="flex md:text-sm lg:text-base xl:text-lg space-x-8 lg:space-x-16 antialiased font-bold"
+          class="flex md:text-xs lg:text-xs xl:text-lg space-x-6 lg:space-x-12 antialiased font-bold"
         >
           <li>
             <router-link
@@ -75,11 +75,23 @@
           </li>
           <li>
             <router-link
+              to="/jobs"
+              :class="[
+                { 'hover:text-gray-500': isScrolled },
+                { 'hover:text-gray-300': !isScrolled },
+                'hover:transition-colors',
+              ]"
+            >
+              Job Openings
+            </router-link>
+          </li>
+          <li>
+            <router-link
               to="/contact"
               :class="[
                 { 'hover:text-gray-500': isScrolled },
                 { 'hover:text-gray-300': !isScrolled },
-                'hover:transition-colors p-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 rounded border border-black',
+                'hover:transition-colors p-1 bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-700 hover:to-blue-700 rounded border border-black',
               ]"
             > 
               Request a Quote

@@ -11,12 +11,13 @@ import {
   faTruckRampBox,
   faLocationDot,
   faEnvelope,
-  faCircleXmark
+  faCircleXmark,
+  faFileLines
 } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add([faCheckCircle, faBars, faCircleChevronRight, faHouse, faHillRockslide, faTruckRampBox, faLocationDot, faEnvelope, faCircleXmark]);
+library.add([faCheckCircle, faBars, faCircleChevronRight, faHouse, faHillRockslide, faTruckRampBox, faLocationDot, faEnvelope, faCircleXmark, faFileLines]);
 
 createApp(App)
   .component("font-awesome-icon", FontAwesomeIcon)

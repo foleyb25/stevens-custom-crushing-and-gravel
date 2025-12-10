@@ -71,6 +71,20 @@
         </li>
         <li>
           <router-link
+            to="/jobs"
+            class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
+            @click="$emit('toggleDrawer')"
+          >
+          <font-awesome-icon :icon="['fas', 'file-lines']" />
+            <span
+              class="flex-1 ml-5 text-left whitespace-nowrap"
+              sidebar-toggle-item
+              >Job Openings</span
+            >
+          </router-link>
+        </li>
+        <li>
+          <router-link
             to="/contact"
             class="flex items-center p-2 w-full text-base hover:bg-gray-200 hover:text-gray-900 rounded-lg transition duration-75 group"
             @click="$emit('toggleDrawer')"
